@@ -1,13 +1,3 @@
-:root {
-  --color-red: #f23d1e;
-  --color-purple: #ad63ee;
-  --color-gray: #f6f3ee;
-  --color-green: #30d1ab;
-  --color-blue: #1a1b53;
-  --shadow-dark: 0 2rem 6rem rgba(0, 0, 0, 0.3);
-  --shadow-light: 0 2rem 5rem rgba(0, 0, 0, 0.06);
-  --line: 1px solid var(--color-grey-light-2); }
-
 * {
   margin: 0;
   padding: 0; }
@@ -312,3 +302,75 @@ img {
 .nav-active {
   background-color: #000 !important;
   box-shadow: 5px -1px 12px -5px grey; }
+
+@media only screen and (max-width: 37.5em) {
+  .navbar-brand {
+    width: 10rem; }
+  .heading-primary {
+    font-size: 2rem; }
+  .heading-secondary {
+    font-size: 1.3rem; }
+  .heading-tertiary {
+    margin-top: 2rem;
+    font-size: 1rem; }
+  .hero-bg {
+    padding: 0 1rem; }
+  .hero .row {
+    height: 60vh; }
+  .main {
+    margin: 0;
+    background: none; }
+  .about {
+    margin-left: 0rem;
+    padding-top: 2rem;
+    padding-right: 2rem; }
+  .about-us-heading {
+    font-size: 2rem;
+    margin-bottom: 1rem; }
+  .for-width {
+    margin-right: 0rem; }
+  .bar {
+    margin-bottom: 1rem; }
+  .circle-heading {
+    font-size: 1.4rem; }
+  .flex-end {
+    display: block; }
+  .card-body {
+    padding: 1rem 0; }
+  .footer-content {
+    padding-left: 1rem; }
+  .mob-quick-width {
+    max-width: 50%;
+    margin-bottom: 2rem; }
+  .collapse.show {
+    background-color: #fff;
+    padding: 1rem; }
+  .card .collapse.show {
+    padding: 0; }
+  .navbar-nav a {
+    color: #000 !important; }
+  .navbar {
+    padding: 0; }
+  .navbar-brand {
+    margin-left: 1rem;
+    margin-top: 1rem; }
+  .navbar-toggler {
+    margin-top: 1rem;
+    margin-right: 1rem; }
+  .navbar-toggler-icon {
+    background-image: none !important; }
+  .navbar-toggler-icon i {
+    font-size: 1.5rem;
+    color: #fff; }
+  .navbar-light .navbar-toggler {
+    border-color: unset; }
+  button:focus {
+    outline: none !important; }
+  .donate-btn-mob {
+    width: 10rem; }
+  .navbar-default {
+    transition: unset; }
+  .testimonial-heading {
+    padding-top: 2rem; }
+  .footer-logo {
+    width: 15rem; } }
