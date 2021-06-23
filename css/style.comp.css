@@ -373,4 +373,6 @@ img {
   .testimonial-heading {
     padding-top: 2rem; }
   .footer-logo {
-    width: 15rem; } }
+    width: 15rem; }
+  .navbar-toggler {
+    border: none !important; } }
