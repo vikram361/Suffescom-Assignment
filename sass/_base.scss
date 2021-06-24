@@ -8,6 +8,14 @@ $bp-smallest: 31.25em; // 500px
     padding: 0;
 }
 
+@font-face {
+    font-family: "Vegas Nova";
+    src: url(../fonts/VegasNova-Black.eot);
+    src: url(../fonts/VegasNova-Black.svg);
+    src: url(../fonts/VegasNova-Black.woff);
+    src: url(../fonts/VegasNova-Black.woff2);
+}
+
 *,
 *::before,
 *::after {
@@ -19,7 +27,7 @@ html {
 }
 
 body {
-    font-family: "Poppins", sans-serif;
+    font-family: "Vegas Nova", sans-serif;
     font-weight: 400;
     line-height: 1.6;
     min-height: 100vh;
